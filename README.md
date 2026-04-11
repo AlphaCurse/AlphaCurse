@@ -9,9 +9,10 @@ I bridge the gap between complex data science and actionable investment strategy
 - Data: Pandas, NumPy, ETL Pipelines, Snowflake
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 # Featured Projects
-- Forecasting Water Consumption and Utility Cost Trends Across NYC Developments: This project forecasts water consumption patterns across New York City to support demand planning, infrastructure management, seasonal preparedness, and resource allocation. Built a Time-Series Forecasting engine in Python to predict water consumption fluctuations with 50% higher accuracy than baseline models.
-- Client Data Anomaly Detection: Developed an anomaly detection workflow for infrastructure datasets, reducing detection time by 25%.
-- TD Bank Credit Risk: Credit Risk Portfolio simulation using Monte Carlo methods to stress-test CECL models.
+NYC Residential Utility Alpha: Quantitative Research Audit
+- Conducted a statistically significant (p < 0.001) cross-correlation study using 10+ years of NYCHA water consumption data to "nowcast" physical occupancy for NYC Multifamily REITs.
+- Implemented STL Decomposition and Rolling Median Smoothing to mitigate administrative billing noise, resulting in a rigorous directional backtest and "De-select" recommendation based on market efficiency findings.
+
 # 🎓 Background
 - MBA in Business Analytics & Strategy (Penn State Smeal)
 - MS in Data Science (CUNY SPS)
