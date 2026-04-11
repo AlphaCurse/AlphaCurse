@@ -16,6 +16,7 @@ NYC Residential Utility Alpha: Quantitative Research Audit
 # 🎓 Background
 - MBA in Business Analytics & Strategy (Penn State Smeal)
 - MS in Data Science (CUNY SPS)
+- BS in Management Information Systems (CUNY SPS)
 - Certifications: FPAP, FMVA, Lean Six Sigma Green Belt
 
 📫 Reach me at: Tyler.Xavier.Brown@gmail.com
