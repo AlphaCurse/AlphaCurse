@@ -10,6 +10,12 @@ I bridge the gap between complex data science and actionable investment strategy
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 
 # Featured Projects
+## Geopolitical Energy Risk Dashboard
+**[[Dashboard Link](https://geopolitical-energy-risk-dashboard.streamlit.app/)]**
+- Developed a real-time institutional risk dashboard that quantifies global "War Premiums" and provides automated hedging strategies for energy-exposed portfolios.
+- Implemented Conditional Value at Risk (CVaR) to model tail-risk and expected shortfall during geopolitical shocks.
+- Built a decision engine that reallocates capital to Gold and Aerospace/Defense (ITA) based on real-time Brent volatility.
+- Engineered an asynchronous news feed using RSS/XML parsing for real-time situational awareness.
 ## Alternative Data Pipeline: Institutional Conviction vs. Retail Sentiment
 - Engineered an ETL pipeline that synthesizes SEC 13F filings (Goldman Sachs) with NLP-processed news sentiment and digital adoption metrics to "nowcast" institutional accumulation.
 - Generated a high-conviction 0.36 directional signal for Netflix (NFLX) ahead of Q1-26 earnings, identified by a $2.8B institutional position increase and +8% surge in app downloads.
