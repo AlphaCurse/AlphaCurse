@@ -8,8 +8,12 @@ I bridge the gap between complex data science and actionable investment strategy
 - Modeling: Scikit-learn, TensorFlow, PyTorch, Statsmodels
 - Data: Pandas, NumPy, ETL Pipelines, Snowflake
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
+
 # Featured Projects
-NYC Residential Utility Alpha: Quantitative Research Audit
+## Alternative Data Pipeline: Institutional Conviction vs. Retail Sentiment
+- Engineered an ETL pipeline that synthesizes SEC 13F filings (Goldman Sachs) with NLP-processed news sentiment and digital adoption metrics to "nowcast" institutional accumulation.
+- Generated a high-conviction 0.36 directional signal for Netflix (NFLX) ahead of Q1-26 earnings, identified by a $2.8B institutional position increase and +8% surge in app downloads.
+## NYC Residential Utility Alpha: Quantitative Research Audit
 - Conducted a statistically significant (p < 0.001) cross-correlation study using 10+ years of NYCHA water consumption data to "nowcast" physical occupancy for NYC Multifamily REITs.
 - Implemented STL Decomposition and Rolling Median Smoothing to mitigate administrative billing noise, resulting in a rigorous directional backtest and "De-select" recommendation based on market efficiency findings.
 
