@@ -10,6 +10,12 @@ I bridge the gap between complex data science and actionable investment strategy
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 
 # Featured Projects
+## Monte Carlo Derivatives Engine: Exotic Option Pricing & Risk
+- Developed a high-performance quantitative engine using vectorized Geometric Brownian Motion (GBM) to price vanilla and path-dependent exotic derivatives.
+- Implemented real-time market integration via yfinance to pull S&P 500 spot prices, 10-Year Treasury yields (Risk-Free Rate), and VIX-based implied volatility for live valuation.
+- Engineered payoffs for Asian and Barrier options, demonstrating the impact of path-dependency and volatility averaging on contract fair value.
+- Built a numerical Greeks module utilizing the Central Finite Difference method to quantify Delta sensitivity and provide automated hedge-ratio calculations.
+- Conducted rigorous model validation by benchmarking Monte Carlo convergence against Black-Scholes analytical solutions to ensure mathematical accuracy.
 ## Geopolitical Energy Risk Dashboard
 **[[Dashboard Link](https://geopolitical-energy-risk-dashboard.streamlit.app/)]**
 - Developed a real-time institutional risk dashboard that quantifies global "War Premiums" and provides automated hedging strategies for energy-exposed portfolios.
