@@ -9,7 +9,7 @@ I bridge the gap between complex data science and actionable investment strategy
 - Data: Pandas, NumPy, ETL Pipelines, Snowflake
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 
-## Featured Projects
+# Featured Projects
 ## Automated Quant Trader
 Engineered and deployed a 24/5 automated trading bot on a Google Cloud Platform (GCP) virtual machine, utilizing Python and the Alpaca-Py SDK.
 ### Key Technical Contributions:
