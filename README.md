@@ -9,7 +9,16 @@ I bridge the gap between complex data science and actionable investment strategy
 - Data: Pandas, NumPy, ETL Pipelines, Snowflake
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 
-# Featured Projects
+## Featured Projects
+## Automated Quant Trader
+Engineered and deployed a 24/5 automated trading bot on a Google Cloud Platform (GCP) virtual machine, utilizing Python and the Alpaca-Py SDK.
+### Key Technical Contributions:
+- Developed logic to strictly adhere to FINRA/SEC Cash Account regulations, successfully preventing Good Faith Violations (GFV) through automated T+1 settlement tracking.
+- Implemented a dynamic capital allocation system that calculates position sizes based on a fixed 5% risk of settled cash, ensuring account liquidity and stability.
+- Configured a high-availability environment using systemd for 24/7 uptime and integrated pytz for automated synchronization with global market hours (CME/NYSE).
+- Optimized data retrieval via batch requests and randomized cooling periods to ensure API resilience and bypass rate-limiting.
+
+https://gist.github.com/AlphaCurse/bc22ebfa6236613cc0d8078348337b44
 ## Monte Carlo Derivatives Engine: Exotic Option Pricing & Risk
 - Developed a high-performance quantitative engine using vectorized Geometric Brownian Motion (GBM) to price vanilla and path-dependent exotic derivatives.
 - Implemented real-time market integration via yfinance to pull S&P 500 spot prices, 10-Year Treasury yields (Risk-Free Rate), and VIX-based implied volatility for live valuation.
