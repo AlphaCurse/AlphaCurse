@@ -10,6 +10,19 @@ I bridge the gap between complex data science and actionable investment strategy
 - Finance: QuantLib, Backtrader, Bloomberg Terminal (API)
 
 # Featured Projects
+## Sentiment Alpha Engine
+[https://sentiment-alpha-engine-equities-forecasting.streamlit.app/]
+
+An end-to-end financial intelligence dashboard that uses **NLP (Natural Language Processing)** to quantify market sentiment and run real-time trading backtests. 
+
+This engine bridges the gap between news headlines and price action, using **FinBERT** (a BERT model pre-trained on financial data) to detect market-moving narratives before they reflect in the price.
+### Key Features
+*   **Real-Time Sentiment Analysis:** Leverages HuggingFace's `ProsusAI/finbert` to analyze headlines for Bullish, Bearish, or Neutral sentiment.
+*   **Dynamic Sector Benchmarking:** Automatically identifies a stock's sector (e.g., Technology, Energy) and compares its sentiment score against the relevant sector ETF (e.g., XLK, XLE).
+*   **VectorBT Backtesting:** Simulates a trading strategy where "Buy" signals are triggered by sentiment spikes above a user-defined threshold.
+*   **Sentiment Heatmap:** Visualizes "sentiment clusters" by day of the week and hour of the day to identify when news impact is highest.
+*   **Volume Correlation:** Overlays average sentiment against trading volume to identify high-conviction market moves.
+
 ## Automated Quant Trader
 Engineered and deployed a 24/5 automated trading bot on a Google Cloud Platform (GCP) virtual machine, utilizing Python and the Alpaca-Py SDK.
 ### Key Technical Contributions:
